@@ -1,0 +1,6 @@
+persistence:
+  dataStores:
+    default:
+      sql:
+        driver: sqlite
+        dataSource: /temporal.db
