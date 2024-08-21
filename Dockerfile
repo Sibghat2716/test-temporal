@@ -1,5 +1,7 @@
 FROM temporalio/auto-setup:latest
 
+RUN mkdir -p /etc/temporal
+
 COPY temporal-config.yaml /etc/temporal/temporal-config.yaml
 
 # Expose necessary ports
